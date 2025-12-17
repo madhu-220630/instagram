@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.login-container{
+    border:1px solid;
+    padding:40px;
+    width:350px;
+    text-align:center;
+    background-color:white;
+}   
+.logo{
+    width:200px;
+    margin-bottom:20px;
+}
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid;
+    border-radius:5px;
+}
+button{
+    width:100%;
+    padding:10px;
+    background-color:#3897f0;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-weight:bold;
+    cursor:pointer;
+}   
+.or{
+    margin:20px 0;
+    font-weight:bold;
+    color:grey;
+    align-items:center;
+}
+.or hr{
+    flex:1;
+    border:none;
+    border-top:1px solid;
+
+}
+.or span{
+    margin:10 px;
+}
+.facebook-login{
+    color:#385185;
+    font-weight:bold;
+    cursor:pointer;
+    margin-bottom:20px;
+}   
+.forgot-password{
+    color:#00376b;
+    font-size:14px;
+    text-decoration:none;
+}
+.signup a{
+    color:#3897f0;
+    text-decoration:nione;
+    font-weight:bold
+}
