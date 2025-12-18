@@ -66,3 +66,8 @@ button{
     text-decoration:nione;
     font-weight:bold
 }
+audio{
+    border-radius:8px;
+    background-color:#f2f2f2;
+    
+}
