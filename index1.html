@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css1.css">
     </head>
     <body>
+        <script src="script.js" defer></script>
         <div class="login-container">
             <h2 class=logo>Instagram</h2>
             <form>
@@ -100,7 +101,66 @@
             <input type="text"  name="User name" placeholder="username">
             <label>email-adress</label>
             <input type="text" name="email-address" placeholder="email-address">
-            
+
+            <!-- javascript  -->
+            <hr>
+        
+
+            <h2>User Info (JS Variables Demo)</h2>
+
+                <p id="userName"></p>
+                <p id="userRole"></p>
+                <p id="loginCount"></p>
+
+                <button onclick="increaseLogin()">Login Count +1</button>
+                <button onclick="changeRole()">Change Role</button>
+
+
+                <hr>
+                <h2>Functions Demo</h2>
+
+                <h3 id="welcomeMsg">Welcome to Instagram</h3>
+
+                <input type="text" id="nameInput" placeholder="Enter your name">
+                <button onclick="updateWelcome()">Update Welcome</button>
+
+                <br><br>
+
+                <input type="password" id="passInput" placeholder="Enter password">
+                <button onclick="checkPassword()">Check Password Strength</button>
+
+                <p id="result"></p>
+
+                <hr>
+                <h2>User Profile (Object Demo)</h2>
+
+                <p id="profileData"></p>
+
+                <button onclick="showProfile()">Show Profile</button>
+                <button onclick="updateFollowers()">Increase Followers</button>
+                <button onclick="changeStatus()">Toggle Status</button>
+               <hr>
+                <h2>Pop-up Box Demo</h2>
+
+                <button onclick="welcomeUser()">Enter Name</button>
+                <button onclick="confirmUpdate()">Update Profile</button>
+                <button onclick="showAlert()">Show Alert</button>
+
+                <p id="popupResult"></p> 
+            <hr>
+<h2>Event Listener Demo</h2>
+
+<button id="eventBtn">Click Me</button>
+<p id="eventText">Waiting for action...</p>
+
+<br><br>
+
+<input type="text" id="liveInput" placeholder="Type something...">
+<p id="liveOutput"></p>
+
+<br><br>
+
+<img id="instaLogo" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="100">
         </div>
             
 
